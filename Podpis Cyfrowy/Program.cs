@@ -12,28 +12,32 @@ public class Program
         {
             using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider(2048))
             {
-                string source = "Hello Wodrld!";
                 using (SHA256 sha256Hash = SHA256.Create())
                 {
-                    //From String to byte array
+                    Console.WriteLine("Podaj dane do zaszyfrowania:");
+                    string source = Console.ReadLine().ToString();
                     byte[] sourceBytes = Encoding.UTF8.GetBytes(source);
                     byte[] hashBytes = sha256Hash.ComputeHash(sourceBytes);
                     string hash = BitConverter.ToString(hashBytes).Replace("-", String.Empty);
-                    Console.WriteLine("The SHA256 hash of " + source + " is: " + hash);
-
-
+                    Console.WriteLine("Funkcja skrótu tekstu " + source + " to: " + hash);
                     UnicodeEncoding ByteConverter = new UnicodeEncoding();
-
-                    string dane = Console.ReadLine();
                     byte[] dataToEncrypt = ByteConverter.GetBytes(hash);
                     byte[] encryptedData;
                     byte[] decryptedData;
                     encryptedData = RSAEncrypt(dataToEncrypt, RSA.ExportParameters(false), false);
                     decryptedData = RSADecrypt(encryptedData, RSA.ExportParameters(true), false);
                     string publicKey = Convert.ToBase64String(RSA.ExportRSAPublicKey());
+                    Console.WriteLine("Klucz publiczny:");
                     Console.WriteLine(publicKey);
-                    Console.WriteLine("Odszyfrowanie udane");
-                    Console.WriteLine("Odszyfrowany tekst: {0}", ByteConverter.GetString(decryptedData));
+                    string decryptedString = ByteConverter.GetString(decryptedData);
+                    Console.WriteLine("Odszyfrowana funkcja skrótu: {0}", decryptedString);
+                    if (hash == decryptedString)
+                    {
+                        Console.WriteLine("Odszyfrowanie udane");
+                    } else
+                    {
+                        Console.WriteLine("Odszyfrowanie nieudane");
+                    }
                 }
             }
         }
