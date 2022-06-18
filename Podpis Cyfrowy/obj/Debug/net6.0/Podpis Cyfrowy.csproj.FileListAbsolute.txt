@@ -13,3 +13,18 @@ C:\Users\Kacpi\Desktop\C# or C++\Studia\Podpis Cyfrowy\Podpis Cyfrowy\obj\Debug\
 C:\Users\Kacpi\Desktop\C# or C++\Studia\Podpis Cyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.pdb
 C:\Users\Kacpi\Desktop\C# or C++\Studia\Podpis Cyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.genruntimeconfig.cache
 C:\Users\Kacpi\Desktop\C# or C++\Studia\Podpis Cyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\ref\Podpis Cyfrowy.dll
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\bin\Debug\net6.0\Podpis Cyfrowy.exe
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\bin\Debug\net6.0\Podpis Cyfrowy.deps.json
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\bin\Debug\net6.0\Podpis Cyfrowy.runtimeconfig.json
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\bin\Debug\net6.0\Podpis Cyfrowy.dll
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\bin\Debug\net6.0\Podpis Cyfrowy.pdb
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.csproj.AssemblyReference.cache
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.AssemblyInfoInputs.cache
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.AssemblyInfo.cs
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.csproj.CoreCompileInputs.cache
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.dll
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\refint\Podpis Cyfrowy.dll
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.pdb
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\Podpis Cyfrowy.genruntimeconfig.cache
+C:\Users\Kacpi\Desktop\C# or C++\Studia\PodpisCyfrowy\Podpis Cyfrowy\obj\Debug\net6.0\ref\Podpis Cyfrowy.dll
